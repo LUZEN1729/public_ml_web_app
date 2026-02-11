@@ -17,7 +17,7 @@ parkinsons_model = pickle.load(open('trained_parkinson_disease_prediction_model.
 
 #sidebar for navigation
 with st.sidebar:
-    selected = option_menu('Multiple Disease Prediction System (Developer : DHRUV R. CHANDEL)',
+    selected = option_menu('Multiple Disease Prediction System [Developed by DHRUV]',
                            ['Diabetes Prediction System',
                             'Heart Disease Prediction System',
                             'Breast Cancer Prediction System',
